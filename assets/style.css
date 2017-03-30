@@ -1,0 +1,30 @@
+
+.dropdown.menu .submenu {
+    border: none;
+    background-color: #eee;
+}
+.dropdown.menu{
+    background-clip: #eee;
+}
+h1{
+    text-align: center;
+    font-family: 'Coda Caption', sans-serif;
+    
+}
+.small{
+    margin: 1em 0em 1em 2em;
+}
+button{
+    font-family: 'Coda Caption', sans-serif;
+}
+.top-main, .mid-main{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+#offCanvasLeft{
+    text-align: center;
+}
+img {
+  margin-right: 1rem;
+  border-radius: 50%;
+}
