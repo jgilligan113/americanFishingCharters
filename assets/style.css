@@ -26,5 +26,8 @@ button{
 }
 img {
   margin-right: 1rem;
-  border-radius: 50%;
+
+}
+#logo {
+    height: 50px;
 }

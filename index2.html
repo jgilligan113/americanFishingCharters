@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AFC-sav</title>
+    <link href="https://fonts.googleapis.com/css?family=Coda+Caption:800|Quicksand" rel="stylesheet">  
+    <!-- Compressed CSS -->
+   <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+   <link rel="stylesheet" href="assets/style.css">
+  </head>
+<body>
+    
+<button type="button" class="button" data-toggle="offCanvasLeftSPlit1">Open Left</button>
+<button type="button" class="button" data-toggle="offCanvasRightSplit2">Open Right</button>
+
+<div class="row">
+  <div class="small-6 columns">
+    <div class="off-canvas-wrapper">
+      <div class="off-canvas-absolute position-left" id="offCanvasLeftSPlit1" data-off-canvas>
+        <!-- Your menu or Off-canvas content goes here -->
+      </div>
+      <div class="off-canvas-content" style="min-height: 300px;" data-off-canvas-content>
+        <p>I have nothing to do with the off-canvas on the right!</p>
+      </div>
+    </div>
+  </div>
+  <div class="small-6 columns">
+    <div class="off-canvas-wrapper">
+      <div class="off-canvas-absolute position-right" id="offCanvasRightSplit2" data-off-canvas>
+        <!-- Your menu or Off-canvas content goes here -->
+      </div>
+      <div class="off-canvas-content" style="min-height: 300px;" data-off-canvas-content>
+        <p>Im a unique off-canvas container all on my own!</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="hhttps://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/js/plugins/foundation.offcanvas.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+</body>
+</html>
