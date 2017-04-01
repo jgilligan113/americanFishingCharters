@@ -1,4 +1,7 @@
-
+body{
+    background-color: #D0E7EF;
+    color: #577168;
+}
 .dropdown.menu .submenu {
     border: none;
     background-color: #eee;
@@ -6,6 +9,14 @@
 .dropdown.menu{
     background-clip: #eee;
 }
+.title-bar {
+    background-color: #577168;
+}
+.top-bar, li, a, a:focus, a:hover a::after{
+    background-color: #6C7865;
+    color: #fff;
+}
+
 h1{
     text-align: center;
     font-family: 'Coda Caption', sans-serif;
@@ -16,6 +27,7 @@ h1{
 }
 button{
     font-family: 'Coda Caption', sans-serif;
+    border-right: #D0E7EF;
 }
 .top-main, .mid-main{
     text-align: center;
@@ -30,4 +42,19 @@ img {
 }
 #logo {
     height: 50px;
+}
+#jimmyHome{
+    border-radius: 50%;
+}
+.socialBtn{
+    border-color: #D0E7EF;
+    background-color: #5E8F6A;
+}
+
+
+@media only screen{
+#jimmyHome{
+    border-radius: 50%;
+    width: 50%;
+    }
 }
