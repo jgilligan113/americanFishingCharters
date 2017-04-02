@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>AFC-sav</title>
-    <link href="https://fonts.googleapis.com/css?family=Coda+Caption:800|Quicksand" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css?family=Anton|Quicksand" rel="stylesheet">  
     <!-- Compressed CSS -->
    <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
-   <link rel="stylesheet" href="assets/style.css"
+   <link rel="stylesheet" href="assets/style.css">
   </head>
 <body>
 <div>
@@ -22,9 +22,9 @@
                 <li>
                     <a href="#">sponsors</a>
                     <ul class="menu vertical">
-                        <li><a href="#">Skeeter</a></li>
-                        <li><a href="#">Custom Marine</a></li>
-                        <li><a href="#">Stewarts Bait and Tackle</a></li>
+                        <li><a href="https://www.skeeterboats.com/" target="_blank">Skeeter</a></li>
+                        <li><a href="http://custom-marine.com/" target="blank">Custom Marine</a></li>
+                        <li><a href="http://www.tybeeislandmarina.com/tybee-island-marina-bait.php" target="_blank">Stewart's Bait and Tackle</a></li>
                     </ul>
                 </li>
             </ul>
@@ -43,7 +43,8 @@
                         <div class="expanded button-group">
                             <a class="socialBtn button">Instagram</a>
                             <a class="socialBtn button">Facebook</a>
-                            <a class="socialBtn button">Contact</a>
+                            <a data-open="tideModal" class="socialBtn button">Tides</a>
+                            <a data-open="contactModal" class="socialBtn button">Contact</a>
                         </div>
                     </div>
                 </div>
@@ -60,6 +61,23 @@
       </div>
     </div>
   </div>
+  <!--modals-->
+  <div class="reveal" id="tideModal" data-reveal>
+  <h1>Tides.</h1>
+  <p class="lead">Hopefully, we find a cool API for tides..</p>
+  <span class='tide table'>tide table to go here</span>
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+<div class="reveal" id="contactModal" data-reveal>
+  <h1></h1>
+  <p><img src='assets/images/afcLogo.jpg' alt='american charter logo'></p>
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
