@@ -1,2 +1,0 @@
-api key 5b3e858a965d4c2a
-Weather Underground for tide information - work to pull and refresh once a day for one call per day.
