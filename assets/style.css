@@ -94,12 +94,17 @@ a{
     color: white;
 }
 
+#about{
+    margin: 2rem;
+}
+
 @media only screen{
 #jimmyHome, #fishDock, #theBoat{
     border-radius: 50%;
     max-width: 175px;
     }
 }
+
 
 @media only screen
 and (min-device-width: 320px)
@@ -116,4 +121,7 @@ and (orientation: portrait){
 .socialBtn{
     font-size: 10px;
 }
+.small-expand {
+    width: 100%;
+}   
 }
