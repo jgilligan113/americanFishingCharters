@@ -25,7 +25,7 @@ body{
 .title-bar, .charter {
     background-color: #0c4d78;
 }
-.top-bar, a{
+.top-bar{
     background-color:#0c4d78;
     color: #fff;
 }
@@ -66,8 +66,9 @@ img {
 #logo {
     height: 50px;
 }
-#jimmyHome{
+#jimmyHome, #fishDock, #theBoat{
     border-radius: 50%;
+    max-width: 300px;
 }
 .socialBtn{
     border-color: #D0E7EF;
@@ -79,6 +80,18 @@ img {
 
 ul{
     margin-left: 15%;
+}
+
+.homeContent {
+    font-weight: 400;
+    font-size: 24px;
+    background-color: #5E8F6A;
+    color: white;
+    margin-top: 2em;
+}
+
+a{
+    color: white;
 }
 
 @media only screen{
