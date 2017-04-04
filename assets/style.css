@@ -30,6 +30,11 @@ body{
     color: #fff;
 }
 
+.modalPic {
+width:50%;
+
+}
+
 h1{
     text-align: center;
     font-family: 'Anton', sans-serif;
@@ -71,6 +76,9 @@ img {
     background-color: #0c4d78;
 }
 
+ul{
+    margin-left: 15%;
+}
 
 @media only screen{
 #jimmyHome{
