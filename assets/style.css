@@ -95,8 +95,25 @@ a{
 }
 
 @media only screen{
-#jimmyHome{
+#jimmyHome, #fishDock, #theBoat{
     border-radius: 50%;
-    width: 50%;
+    max-width: 175px;
     }
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait){
+#jimmyHome, #fishDock, #theBoat{
+    border-radius: 50%;
+    max-width: 90px;
+    }
+.homeContent {
+    font-size: 18px;
+}
+.socialBtn{
+    font-size: 10px;
+}
 }
