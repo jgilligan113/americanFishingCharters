@@ -22,7 +22,7 @@ body{
 .dropdown.menu{
     background-clip: #eee;
 }
-.title-bar {
+.title-bar, .charter {
     background-color: #0c4d78;
 }
 .top-bar, a{
@@ -39,6 +39,7 @@ h1{
     text-align: center;
     font-family: 'Anton', sans-serif;
 }
+
 
 .top-bar, top-bar ul{
     background-color:#0c4d78;
