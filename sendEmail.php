@@ -10,11 +10,10 @@ if (isset($_POST['redirect']))
         $redirect = $POST['redirect'];
 
         $smtp = Mail::factory('smtp', array(
-            'host' => 'ssl://smtp.gmail.com',
+            'host' => 'ssl://smtp.sendgrid.net',
             'port' => '465',
-            'auth' => true,
-            'username' => 'admin@fishingtybee.com',
-            'password' => 'FishingTybee17'
+            'username' => 'afc',
+            'password' => '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'
         ))
 
         //set up header
