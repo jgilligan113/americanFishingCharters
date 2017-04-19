@@ -53,9 +53,29 @@
             <!--main page content below here-->
         <div class='row column top-main'>
             <div class='row mid-main'><br>
-                <div class="small-12 large-6 columns"><img id='jimmyHome' src='assets/images/fishYellow.png' alt='placeholder'></div>
-                <div class="small-12 large-6 columns">
-                    <br><h3>FORM insert</h3>
+                
+                <div class="small-12 large-12 columns form-group">
+                    
+                    <form action="sendEmail.php" method="post">
+                        <input type="hidden" value="jgilligan.promo@gmail.com" name="send_to" />
+                        <input type="hidden" value="jgilligan.promo@gmail.com" name="send_from" />
+                        <input type="hidden" value="contact.html" name="redirect" />
+                        <input type="hidden" value="Contact Form Submission" name="subject" />
+
+                        <label>Name</label>
+                        <input type="text" name="name" /></p>
+
+                        <label>Email</label>
+                        <input type="text" name="email" /></p>
+
+                        <label>Phone</label>
+                        <input type="text" name="phone" /></p>
+
+                        <label>Comments</label>
+                        <textarea type="textarea" name="comments"></textarea></p>
+
+                        <button class="btn btn-info" type="submit" value="Submit">Submit</button>
+                    </form>
                 </div>
             </div>
         </div>
