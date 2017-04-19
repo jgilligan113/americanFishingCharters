@@ -1,11 +1,12 @@
 <? 
+require 'vendor/autoload.php';
+
 if (isset($_POST['send']))
     {
         //set up message
         $send_to = $_POST['send_to'];
         $send_from = $_POST['send_from'];
         $subject = $_POST['subject'];
-        $redirect = $POST['redirect'];
 
         $smtp = Mail::factory('smtp', array(
             'host' => 'ssl://smtp.sendgrid.net',
