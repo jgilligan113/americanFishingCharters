@@ -1,3 +1,135 @@
-img{
+body{
+    background: url('images/marsh.jpg')  no-repeat center center fixed;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: hsla(0,0%,100%,0.70);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+}
+.menuBar{
+    background-color: #0c4d78;
+}
+.dropdown.menu .submenu {
+    border: none;
+    background-color:#0c4d78;
+
+}
+.dropdown.menu{
+    background-clip: #eee;
+}
+
+.title-bar, .charter {
+    background-color: #0c4d78;
+}
+.top-bar{
+    background-color:#0c4d78;
+    color: #fff;
+}
+
+.modalPic {
+width:50%;
+
+}
+
+h1{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+.top-bar, top-bar ul{
+    background-color:#0c4d78;
+
+}
+.small{
+    margin: 1em 0em 1em 2em;
+}
+button{
+    font-family: 'Coda Caption', sans-serif;
+    border-right: #D0E7EF;
+}
+.top-main, .mid-main{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+#offCanvasLeft{
+    text-align: center;
+}
+img {
+  margin-right: 1rem;
+
+}
+#logo {
+    height: 50px;
+}
+#jimmyHome, #fishDock, #theBoat{
     border-radius: 50%;
+    max-width: 300px;
+}
+.socialBtn{
+    border-color: #D0E7EF;
+    background-color: #5E8F6A;
+}
+.top-bar, .top-bar ul {
+    background-color: #0c4d78;
+}
+
+ul{
+    margin-left: 15%;
+}
+
+.homeContent {
+    font-weight: 400;
+    font-size: 24px;
+    background-color: #5E8F6A;
+    color: white;
+    margin-top: 2em;
+}
+
+a{
+    color: white;
+}
+
+#about{
+    margin: 2rem;
+}
+#email{
+    color: black;
+}
+
+#contactLogo{
+    width:40%;
+    float: left;
+}
+
+@media only screen{
+#jimmyHome, #fishDock, #theBoat{
+    border-radius: 50%;
+    max-width: 175px;
+    }
+}
+
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait){
+#jimmyHome, #fishDock, #theBoat{
+    border-radius: 50%;
+    max-width: 90px;
+    }
+.homeContent {
+    font-size: 18px;
+}
+.socialBtn{
+    font-size: 10px;
+}
+.small-expand {
+    width: 100%;
+}   
 }
