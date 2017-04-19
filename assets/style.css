@@ -41,7 +41,6 @@ h1{
     font-family: 'Anton', sans-serif;
 }
 
-
 .top-bar, top-bar ul{
     background-color:#0c4d78;
 
@@ -97,6 +96,9 @@ a{
 
 #about{
     margin: 2rem;
+}
+#email{
+    color: black;
 }
 
 @media only screen{
