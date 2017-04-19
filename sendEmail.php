@@ -1,7 +1,5 @@
 <? 
-require_once "Mail.php";
-
-if (isset($_POST['redirect']))
+if (isset($_POST['send']))
     {
         //set up message
         $send_to = $_POST['send_to'];
