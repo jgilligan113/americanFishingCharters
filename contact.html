@@ -56,23 +56,23 @@
                 
                 <div class="small-12 large-12 columns form-group">
                     
-                    <form action="sendEmail.php" method="post">
+                    <form action="sendEmail.js" method="post">
                         <input type="hidden" value="jgilligan.promo@gmail.com" name="send_to" />
                         <input type="hidden" value="jgilligan.promo@gmail.com" name="send_from" />
                         <input type="hidden" value="contact.html" name="redirect" />
                         <input type="hidden" value="Contact Form Submission" name="subject" />
 
                         <label>Name</label>
-                        <input type="text" name="name" /></p>
+                        <input type="text" name="name" id="name"/></p>
 
                         <label>Email</label>
-                        <input type="text" name="email" /></p>
+                        <input type="text" name="email" id="from"/></p>
 
                         <label>Phone</label>
-                        <input type="text" name="phone" /></p>
+                        <input type="text" name="phone"  id="phone"/></p>
 
                         <label>Comments</label>
-                        <textarea type="textarea" name="comments"></textarea></p>
+                        <textarea type="textarea" name="comments" id="comment"></textarea></p>
 
                         <button class="btn btn-info" type="submit" value="Submit">Submit</button>
                     </form>
@@ -100,8 +100,9 @@
   </button>
 </div>
 
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script src="emailSend.js"></script>
     <script>
       $(document).foundation();
     </script>

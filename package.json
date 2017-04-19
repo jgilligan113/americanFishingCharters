@@ -1,0 +1,22 @@
+{
+  "name": "american_fishing_charters",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgilligan113/americanFishingCharters.git"
+  },
+  "author": "Jessica Gilligan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgilligan113/americanFishingCharters/issues"
+  },
+  "homepage": "https://github.com/jgilligan113/americanFishingCharters#readme",
+  "dependencies": {
+    "sendgrid": "^5.0.0"
+  }
+}
