@@ -6,4 +6,4 @@ exports.keys = {
     key: config.KEY
 }
 
-//console.log(config.KEY);
+;
