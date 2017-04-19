@@ -101,6 +101,11 @@ a{
     color: black;
 }
 
+#contactLogo{
+    width:50%;
+    float: left;
+}
+
 @media only screen{
 #jimmyHome, #fishDock, #theBoat{
     border-radius: 50%;
