@@ -7,7 +7,7 @@ var name = $("#name").val();
 var phone = $("#phone").val();
 
 from_email = new helper.Email(from);
-to_email = new helper.Email("jimmy@fishingtybee.com");
+to_email = new helper.Email("jgilligan.sav@gmail.com");
 subject = "Sending with SendGrid is Fun";
 content = new helper.Content("text/plain", "and easy to do anywhere, even with Node.js");
 mail = new helper.Mail(from_email, subject, to_email, content);
