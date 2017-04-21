@@ -22,6 +22,12 @@ body{
 .dropdown.menu{
     background-clip: #eee;
 }
+.carousel-inner{
+    margin:auto;
+}
+.img-fluid{
+    margin:auto;
+}
 
 .title-bar, .charter {
     background-color: #0c4d78;
@@ -34,6 +40,9 @@ body{
 .modalPic {
 width:50%;
 
+}
+img {
+    margin:auto;
 }
 
 h1{

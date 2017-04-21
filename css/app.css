@@ -35,7 +35,14 @@ body{
 width:50%;
 
 }
-
+img, .d-block, .img-fluid, .carousel-item, .slide{
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+.mid-main{
+    width:50%;
+}
 h1{
     text-align: center;
     font-family: 'Anton', sans-serif;
@@ -59,10 +66,6 @@ button{
 #offCanvasLeft{
     text-align: center;
 }
-img {
-  margin-right: 1rem;
-
-}
 #logo {
     height: 50px;
 }
@@ -81,7 +84,13 @@ img {
 ul{
     margin-left: 15%;
 }
-
+.img-fluid{
+    max-height: 250px;
+    margin:auto;
+}
+img {
+    margin:auto;
+}
 .homeContent {
     font-weight: 400;
     font-size: 24px;
@@ -106,7 +115,7 @@ a{
     float: left;
 }
 
-@media only screen{
+/*@media only screen{
 #jimmyHome, #fishDock, #theBoat{
     border-radius: 50%;
     max-width: 175px;
@@ -132,4 +141,4 @@ and (orientation: portrait){
 .small-expand {
     width: 100%;
 }   
-}
+}*/

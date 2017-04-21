@@ -44,7 +44,7 @@
                         <div class="expanded button-group">
                             <a href="https://www.instagram.com/fishinjimmy6/" class="socialBtn button">Instagram</a>
                             <a href="https://www.facebook.com/search/top/?q=stewart%27s%20tybee%20island%20bait%20and%20tackle" class="socialBtn button" target="_blank">Facebook</a>
-                            <a data-open="tideModal" class="socialBtn button">Tides</a>
+                            <a id="weather" data-open="weatherModal" class="socialBtn button">Weather</a>
                             <a data-open="contactModal" class="socialBtn button">Contact</a>
                         </div>
                     </div>
@@ -71,10 +71,10 @@
     </div>
   </div>
   <!--modals-->
-  <div class="reveal" id="tideModal" data-reveal>
-  <h1>Tides.</h1>
-  <p class="lead">Hopefully, we find a cool API for tides..</p>
-  <span class='tide table'>tide table to go here</span>
+  <div class="reveal weatherDetails" id="weatherModal" data-reveal>
+  <h1>Tybee Weather</h1>
+  <!--<p class="lead">We are working to provide the tides...</p>
+  <span class='tide table'>check back on our site progress</span>-->
   <button class="close-button" data-close aria-label="Close modal" type="button">
     <span aria-hidden="true">&times;</span>
   </button>
@@ -153,6 +153,7 @@
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script src="js/app.js"></script>
     <script>
       $(document).foundation();
     </script>
