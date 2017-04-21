@@ -7,7 +7,7 @@ var city = 'Tybee Island'
         url: 'http://api.wunderground.com/api/2d160d5a7d89cd60/forecast10day/q/' + state + '/' + city + '.json',
         method: 'GET'
     }).done(function (weather) {
-        for (i = 0; i < 5; i++) {
+        for (i = 0; i < 3; i++) {
             var weatherF = weather.forecast.txt_forecast.forecastday[i].fcttext;
             var altTxt = weather.forecast.txt_forecast.forecastday[i].icon;
             var image = weather.forecast.txt_forecast.forecastday[i].icon_url;

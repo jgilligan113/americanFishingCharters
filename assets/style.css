@@ -38,8 +38,12 @@ body{
 }
 
 .modalPic {
-width:50%;
+    width:50%;
+}
 
+
+.reveal {
+    margin:250px auto 0;
 }
 img {
     margin:auto;
