@@ -4,7 +4,7 @@ var city = 'Tybee Island'
 // $('#weather').on('click', function () {
 //     console.log("I was clicked");
     $.ajax({
-        url: 'http://api.wunderground.com/api/2d160d5a7d89cd60/forecast10day/q/' + state + '/' + city + '.json',
+        url: 'http://api.wunderground.com/api/5b3e858a965d4c2a/forecast10day/q/' + state + '/' + city + '.json',
         method: 'GET'
     }).done(function (weather) {
         for (i = 0; i < 3; i++) {
